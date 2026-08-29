@@ -2,7 +2,7 @@
 
 Interactive 3D figurine showcase with immersive carousel, dynamic theming, and responsive layout. Built as a high-performance React experience for collectible commerce and product storytelling.
 
-Live Demo: `https://gourab775.github.io/3d-collection` · Category: E-Commerce / Interactive Showcase · Stack: React 19, TypeScript, Vite, Tailwind CSS v4
+Live Demo: `https://3dcollection.vercel.app` · Category: E-Commerce / Interactive Showcase · Stack: React 19, TypeScript, Vite, Tailwind CSS v4
 
 ---
 
