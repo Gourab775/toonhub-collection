@@ -1,22 +1,22 @@
-# ToonHub — 3D Collection Showcase
+﻿# ToonHub â€” 3D Collection Showcase
 
 Interactive 3D figurine showcase with immersive carousel, dynamic theming, and responsive layout. Built as a high-performance React experience for collectible commerce and product storytelling.
 
-Live Demo: `https://3dcollection.vercel.app` · Category: E-Commerce / Interactive Showcase · Stack: React 19, TypeScript, Vite, Tailwind CSS v4
+Live Demo: `https://toonhub-collection.vercel.app` Â· Category: E-Commerce / Interactive Showcase Â· Stack: React 19, TypeScript, Vite, Tailwind CSS v4
 
 ---
 
 ## Overview
 
-ToonHub presents a curated 3D collection through a center-stage carousel. Each collectible drives its own background palette, grain texture, and panel tones while users navigate with keyboard or touch. The experience is tuned for retail storytelling — bold typography, fluid transitions, and mobile-first responsiveness.
+ToonHub presents a curated 3D collection through a center-stage carousel. Each collectible drives its own background palette, grain texture, and panel tones while users navigate with keyboard or touch. The experience is tuned for retail storytelling â€” bold typography, fluid transitions, and mobile-first responsiveness.
 
 ## Features
 
-- **Immersive carousel** — Center/left/right/back roles with scale, blur, and opacity transitions (650ms cubic-bezier)
-- **Dynamic theming** — Per-item background (`#F4845F`, `#6BBF7A`, etc.) with smooth color interpolation
-- **Responsive & accessible** — Mobile (60% hero) / Desktop (92% hero) layouts, touch/swipe, keyboard nav, `prefers-reduced-motion` ready
-- **Performance optimised** — Image preloading, `will-change`, grain SVG data URI, no external 3D runtime
-- **Design system** — Tailwind CSS v4, `lucide-react` icons, Anton + Inter typography
+- **Immersive carousel** â€” Center/left/right/back roles with scale, blur, and opacity transitions (650ms cubic-bezier)
+- **Dynamic theming** â€” Per-item background (`#F4845F`, `#6BBF7A`, etc.) with smooth color interpolation
+- **Responsive & accessible** â€” Mobile (60% hero) / Desktop (92% hero) layouts, touch/swipe, keyboard nav, `prefers-reduced-motion` ready
+- **Performance optimised** â€” Image preloading, `will-change`, grain SVG data URI, no external 3D runtime
+- **Design system** â€” Tailwind CSS v4, `lucide-react` icons, Anton + Inter typography
 
 ## Tech Stack
 
@@ -28,17 +28,17 @@ ToonHub presents a curated 3D collection through a center-stage carousel. Each c
 
 ```
 .
-├─ src/
-│  ├─ components/
-│  │  └─ HeroSection.tsx   # Carousel logic, role mapping, transitions, theming
-│  ├─ App.tsx              # App shell
-│  ├─ main.tsx             # Entry
-│  └─ index.css            # Global styles
-├─ public/                 # Static assets
-├─ index.html              # Vite entry HTML
-├─ vite.config.ts          # Vite + Tailwind + React plugin
-├─ tsconfig.json           # TS configs
-└─ package.json
+â”œâ”€ src/
+â”‚  â”œâ”€ components/
+â”‚  â”‚  â””â”€ HeroSection.tsx   # Carousel logic, role mapping, transitions, theming
+â”‚  â”œâ”€ App.tsx              # App shell
+â”‚  â”œâ”€ main.tsx             # Entry
+â”‚  â””â”€ index.css            # Global styles
+â”œâ”€ public/                 # Static assets
+â”œâ”€ index.html              # Vite entry HTML
+â”œâ”€ vite.config.ts          # Vite + Tailwind + React plugin
+â”œâ”€ tsconfig.json           # TS configs
+â””â”€ package.json
 ```
 
 ## Getting Started
@@ -74,17 +74,18 @@ No environment variables required.
 
 ## Customization
 
-- **Collection items:** Edit `IMAGES` in `src/components/HeroSection.tsx` — `src`, `bg`, `panel` per item
-- **Typography:** Anton for display (`3D SHAPE`), Inter for UI — change in component `fontFamily`
+- **Collection items:** Edit `IMAGES` in `src/components/HeroSection.tsx` â€” `src`, `bg`, `panel` per item
+- **Typography:** Anton for display (`3D SHAPE`), Inter for UI â€” change in component `fontFamily`
 - **Theme & motion:** Adjust `TRANSITION` constant and `styleMap` roles for timing/easing
 - **Branding:** Replace `TOONHUB` labels and `DISCOVER IT` CTA in `HeroSection.tsx`
 
 ## Performance Notes
 
 - Preloads 4 hero images on mount; add `loading="lazy"` if collection grows
-- Grain is inline SVG data URI — no extra request
+- Grain is inline SVG data URI â€” no extra request
 - For production, enable `oxlint-tsgolint` type-aware rules per `.oxlintrc.json`
 
 ## License
 
-MIT — free for personal and commercial use.
+MIT â€” free for personal and commercial use.
+
